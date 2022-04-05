@@ -1,3 +1,11 @@
 1.查看CPU的信息：cat /proc/cpuinfo 
 2.显示内存信息：cat /proc/meminfo
 3.显示系统系统内存的使用情况，包括物理内存：free
+4.man xxx 查看命令的帮助，q退出
+5.显示磁盘的信：df  df -h  df -i
+6.文件操作命令：
+	6.1：ls,显示当前工作目录，ls -l(简写就是ll),ls -a 显示隐藏文件。ls -al
+	6.2: touch，创建文件的命令。
+	6.3：cd命令，cd 回到当前命名的家命令，cd ..回到当前目录上一级目录；
+	6.4: rm删除文件，rm -r 删除文件夹；加上f（force）是强制删除。
+	6.5: link -s file link 创建软连接。
